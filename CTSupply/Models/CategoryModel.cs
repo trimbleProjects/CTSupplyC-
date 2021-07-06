@@ -9,15 +9,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CTSupply.Models
 {
-    [Table("Products")]
-    public class Category 
+    public class CategoryModel 
     {
-        public string Partnum { get; set; }
+        public string partnum { get; set; }
 
 
     }
     public class Product : DbContext
     {
-        public DbSet<Category> products { get; set; }
+        public DbSet<CategoryModel> prodCategory { get; set; }
     }
 }

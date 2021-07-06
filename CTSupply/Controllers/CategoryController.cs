@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using  CTSupply.Models;
+using CTSupply.Models;
 
 namespace CTSupply.Controllers
 {
@@ -12,13 +12,9 @@ namespace CTSupply.Controllers
         // GET: Category
         public ActionResult Index()
         {
-            Product prods = new Product();
-
-            List<Category> productList = prods.products.ToList();
 
 
-
-            return View(productList);
+            return View();
 
         }
     }
