@@ -1,0 +1,108 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*Custom Edits*/
+.cHeader {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 40px;
+}
+
+#cHeaderCenter {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% auto;
+    padding-bottom: 20px;
+}
+
+.cHeader form {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    place-items: end;
+}
+
+    .cHeader form button {
+        margin-left: 3%;
+        border-radius: 8px;
+    }
+
+#searchTxt {
+    width: 600px;
+    height: 30px;
+    border: 2px solid rgb(88, 88, 90);
+    border-radius: 12px;
+    font-size: 20px;
+    max-width: 600px !important;
+}
+
+#searchBtn {
+    border-radius: 30px;
+    height: 35px;
+    width: 100px;
+    margin-left: 8px;
+}
+
+#headerLogo {
+    width: 150px;
+    #f5ad42
+}
+/**Formatting the navbar**/
+.ctMenu {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    background: grey;
+}
+
+    .ctMenu div {
+        margin: 0 1%;
+        color: #fff;
+    }
+
+        .ctMenu div a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+            .ctMenu div a:hover {
+                color: #f5ad42;
+            }
+
+
+
+/*Body Container*/
+.bodyContainer {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2%;
+}
+
+/**Body Tag**/
+body {
+    background: #f5ad42;
+}

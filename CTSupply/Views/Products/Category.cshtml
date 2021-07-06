@@ -1,0 +1,18 @@
+﻿@model IEnumerable<CTSupply.Models.Product>
+
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/CategoryLayout.cshtml";
+
+    //Database
+    //var db = database.open("Supply");
+}
+
+
+<h2>Category</h2>
+
+<table>
+    <tr><td>ID</td></tr>
+    <tr><td>@products.PartNum</td></tr>
+</table>
+

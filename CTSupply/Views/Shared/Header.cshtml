@@ -1,0 +1,16 @@
+﻿<div class="cHeader">
+    <div id="cHeaderCenter">
+        <img src="~/Content/Images/CoreyLogo6.png" alt="Company Logo" id="headerLogo" />
+        <form>
+            <input type="text" name="search" id="searchTxt" />
+            <button id="searchBtn" type="submit">Submit</button>
+        </form>
+    </div>
+    <nav class="ctMenu">
+        <div>@Html.ActionLink("Home", "Index", "Home")</div>
+        <div>@Html.ActionLink("About", "About", "Home")</div>
+        <div>@Html.ActionLink("Contact", "Contact", "Home") </div>
+        <div>@Html.ActionLink("Fasteners", "Category", "Products")</div>
+        <div>@Html.ActionLink("Soap", "Category", "Products")</div>
+    </nav>
+</div>
